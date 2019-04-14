@@ -2,7 +2,7 @@
 
 [Live demo](https://prowly-recruitment-task.jakubemfoto.pl/)
 
-<video src="./demo/demo.mp4" width="320" height="200" controls preload></video>
+![demo image](./demo/demo.png)
 
 to set up this project:
 - clone this repo,
