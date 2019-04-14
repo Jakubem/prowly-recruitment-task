@@ -4,8 +4,7 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
-    "faker": "^4.1.0",
-    "font-awesome": "^4.7.0"
+    "faker": "^4.1.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1",
