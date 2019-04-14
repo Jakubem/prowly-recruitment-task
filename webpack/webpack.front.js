@@ -49,6 +49,17 @@ module.exports = {
           'sass-loader',
         ],
       },
+      {
+        test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'fonts/',    // where the fonts will go
+            publicPath: '../'       // override the default path
+          }
+        }]
+      },
     ]
   },
   stats: 'errors-only',
@@ -74,13 +85,8 @@ module.exports = {
       filename: './index.html'
     }),
     new CopyWebpackPlugin([{
-        from: 'src/fonts',
-        to: 'fonts'
-      },
-      {
-        from: 'src/images',
-        to: 'images'
-      },
-    ]),
+      from: './src/assets',
+      to: './'
+    }])
   ]
 }
