@@ -70,7 +70,21 @@ body {
     font-family: 'Roboto', FontAwesome;
     font-size: rem(18px);
   }
-
+  &__input-group {
+    display: inline;
+    position: relative;
+    &::before {
+      content: '';
+      background-image: url(../assets/search.svg);
+      background-repeat: no-repeat;
+      display: block;
+      position: absolute;
+      width: 60px;
+      height: 70px;
+      left: 13px;
+      top: 0px;
+    }
+  }
   &__label {
     position: absolute;
     transform: translateY(-25px);
