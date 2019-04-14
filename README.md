@@ -12,5 +12,5 @@ to set up this project:
 
 ### Additional notes:
 - mock persons are generated via [faker](https://www.npmjs.com/package/faker) library
-- although it wasn't specify in the original design, I've added a label to search input, as the `placeholder` is no substitute for label
+- although it wasn't specify in the original design, I've added a label to the search input, as the `placeholder` is no substitute for label
 - font color of job title from the design was replaced to comply with [WCAG Color Contrast Standard](https://www.w3.org/TR/WCAG20/)
