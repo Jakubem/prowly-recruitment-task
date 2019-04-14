@@ -1,6 +1,5 @@
-  // @WOJT:  opisz czemu to fajne po krótce
-  // możesz linknąć przez @see LINK
-
+// convert px values to rem
+// @see (pl) https://ranyboskie.pl/posts/domyslne-i-preferowane-rozmiary-tekstu/
 @function rem($px) {
   $remSize: $px / 16px;
   @return #{$remSize}rem;

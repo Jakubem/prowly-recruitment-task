@@ -37,7 +37,7 @@ export function listItem(name, role, avatar) {
 
 
 /**
- * 
+ * filter people by name
  * @param {obj} obj - person object to be filtered
  * @param {*} query - filter query
  */
