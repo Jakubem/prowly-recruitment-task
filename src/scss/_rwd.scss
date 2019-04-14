@@ -3,3 +3,12 @@
     font-size: rem(32px);
   }
 }
+
+@media screen and (max-width: 400px) {
+  .search {
+    width: 270px;
+  }
+  .headline {
+    font-size: rem(22px);
+  }
+}
